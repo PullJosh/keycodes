@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+.centered {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+#pageText {
+  font-family: 'Roboto', sans-serif;
+  font-size:14vmin;
+  color:#222;
+  font-weight:700;
+}
+#pageText.instructions {
+  font-weight:400;
+  font-size:4vmin;
+  color:#888;
+}
